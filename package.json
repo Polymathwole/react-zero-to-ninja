@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --init"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,16 @@
   },
   "homepage": "https://github.com/Polymathwole/react-zero-to-ninja#readme",
   "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
     "prettier": "^1.14.2",
     "prettier-eslint-cli": "^4.7.1"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.9.7"
   }
 }
