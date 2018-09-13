@@ -1,0 +1,23 @@
+{
+  "name": "react-zero-to-ninja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polymathwole/react-zero-to-ninja.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Polymathwole/react-zero-to-ninja/issues"
+  },
+  "homepage": "https://github.com/Polymathwole/react-zero-to-ninja#readme",
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  }
+}
